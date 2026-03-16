@@ -44,7 +44,7 @@ plt.title('WEATHER REPORT-CITY 1')
 plt.show()
 
 #using dataset
-df=pd.read_csv('D:/File Manager/DATA SCIENCE/Data Visualization(youtube)/DS1_C4_S5_Person_Data_Concept.csv')
+df=pd.read_csv('D:/File Manager/DATA SCIENCE/Data Visualization/DS1_C4_S5_Person_Data_Concept.csv')
 print("dataset:\n",df)
 plt.scatter(df['Height'],df['Index'],alpha=0.4)
 plt.show()
@@ -96,7 +96,7 @@ plt.bar(name_len+width,marks2,width=width,color=colors,alpha=0.4)
 plt.show()
 
 #using dataset
-df=pd.read_csv('D:/File Manager/DATA SCIENCE/Data Visualization(youtube)/DS1_C4_S5_Person_Data_Concept.csv')
+df=pd.read_csv('D:/File Manager/DATA SCIENCE/Data Visualization/DS1_C4_S5_Person_Data_Concept.csv')
 plt.bar(df['Index'],df['Height'],color='aqua')
 plt.show()
 
@@ -139,7 +139,7 @@ plt.legend()
 plt.show()
 
 #using dataset
-df=pd.read_csv('D:/File Manager/DATA SCIENCE/Data Visualization(youtube)/DS1_C4_S5_Revenue_Data_Concept.csv')
+df=pd.read_csv('D:/File Manager/DATA SCIENCE/Data Visualization/DS1_C4_S5_Revenue_Data_Concept.csv')
 pie_df=pd.DataFrame(df['2020'].value_counts())
 print("Value Count:\n",pie_df)
 colors=['red','violet','orange','yellow','aqua','green','blue','pink','purple','brown']
