@@ -60,7 +60,7 @@ df=pd.DataFrame(b)
 print("\nDataFrame using series:\n",df)
 
 #READING CSV FILE AS DATAFRAMES
-df=pd.read_csv("D:/File Manager/DATA SCIENCE/Data Visualization(youtube)/DS1_C4_S3_Loan_Data_Practice.csv.csv")
+df=pd.read_csv("D:/File Manager/DATA SCIENCE/Data Visualization/DS1_C4_S3_Loan_Data_Practice.csv.csv")
 print("\nDataFrame:\n",df)
 #print("\nDataFrame:\n",df.type)  
 
@@ -106,7 +106,7 @@ print("\nMean.fillna()",df['LoanAmount'].fillna(value=df['LoanAmount'].mean()))
 #print("\n",df.replace(to_replace=15,method='ffill'))
 
 #loc()
-#df1=pd.read_csv("D:/File Manager/DATA SCIENCE/Data Visualization(youtube)/DS1_C4_S3_Loan_Data_Practice.csv.csv",index_col=['Loan_ID'])
+#df1=pd.read_csv("D:/File Manager/DATA SCIENCE/Data Visualization/DS1_C4_S3_Loan_Data_Practice.csv.csv",index_col=['Loan_ID'])
 print("\nlocation:",df.loc[1])    #print 1st row details
 print("\nlocation:",df.loc[[1,3,5,7]])
 print("\n",df.loc[100,'Property_Area'])
